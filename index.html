@@ -19,7 +19,7 @@
                 <p>{{ message }}</p>
                 
                 <div class="d-flex justify-content-center">
-                  <video id="video1" data-able-player preload="auto" width="1080" height="720" @timeupdate="updateTime" ref="video1" controls crossorigin="anonymous">
+                  <video id="video1" data-able-player preload="auto" width="1080" height="720" @timeupdate="updateTime" ref="video1" crossorigin="anonymous">
                     
                     <source type="video/mp4" src="assets/video1.mp4" data-desc-src="assets/video1.mp4"/>
                     <track id="chaptersTrack01" class="chaptersTrack" src="assets/sample.vtt" kind="chapters" ref="chapters" v-on:load="getChaptersReady" default>
