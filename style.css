@@ -22,3 +22,12 @@
       content: '✔';
       color:green;
     }
+
+    .btn.school-btn {
+      background-color: #3F2A56;
+      color: #FFFFFF;
+    }
+
+    .btn.btn-warning {
+      background-color: #DA797A;
+    }
